@@ -1,6 +1,6 @@
 # Oembedder
 
-TODO: Write a gem description
+An oEmbed consumer library
 
 ## Installation
 
@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+oe = Oembedder.new
+response =  oe.get('http://vimeo.com/84828674')
+puts response.html
+```
+The method get will return oEmded data.
 
 ## Contributing
 
