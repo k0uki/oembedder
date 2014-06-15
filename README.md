@@ -2,6 +2,8 @@
 
 An oEmbed consumer library
 
+[![Build Status](https://travis-ci.org/k0uki/oembedder.svg?branch=master)](https://travis-ci.org/k0uki/oembedder)
+
 ## Installation
 
 Add this line to your application's Gemfile:
