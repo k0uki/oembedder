@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Oembedder::VERSION
   spec.authors       = ["k0uki"]
   spec.email         = ["k0uki221@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "An oEmbed consumer library"
+  spec.description   = "An oEmbed consumer library"
+  spec.homepage      = "https://github.com/k0uki/oembedder"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
